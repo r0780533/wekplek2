@@ -24,5 +24,10 @@ namespace wekplek2
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lblRes.Content = "Hello wereld".ToString();
+        }
     }
 }

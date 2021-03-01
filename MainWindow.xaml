@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label HorizontalAlignment="Left" Margin="212,72,0,0" VerticalAlignment="Top">
+            <Label x:Name="lblRes" Content="Label"/>
+        </Label>
+        <Button x:Name="btnClick" Content="Click" HorizontalAlignment="Left" Margin="353,72,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>
